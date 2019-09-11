@@ -28,7 +28,7 @@ const Button = styled.button`
     border: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: rgb(9,4,91);
-    background: linear-gradient(132deg, rgba(9,4,91,0.9) 0%, rgba(40,40,168,1) 35%, rgba(0,212,255,0.9) 100%);
+    background: linear-gradient(132deg, rgba(9,4,91,0.4) 0%, rgba(40,40,168,0.4) 35%, rgba(0,212,255,0.4) 100%);
 `
 
 const StyledForm = styled.form`
@@ -50,11 +50,10 @@ const StyledHeader = styled.div`
     width: 500px;
     margin: 0 auto 0 auto;
     border-radius: 4px 4px 0 0;
-    font-family: verdana;
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.7rem;
-    letter-spacing: -1px;
+    font-size: 1.6rem;
     color: white;
     display: flex;
     justify-content: center;
