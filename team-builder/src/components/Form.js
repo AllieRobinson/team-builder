@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import milkyway from '../milkyway.jpg';
+
+console.log(milkyway);
 
 const Input = styled.input`
     border: 1px solid rgba(9, 4, 91, 0.2);
@@ -60,6 +63,7 @@ const StyledHeader = styled.div`
     align-items: center;
     background: rgb(9,4,91);
     background: linear-gradient(90deg, rgba(9,4,91,0.9) 0%, rgba(40,40,168,0.9) 35%, rgba(0,212,255,0.9) 100%);
+    background-image: url('/static/media/milkyway.3d10bab5.jpg')
 `
 
 const Form = props => {
