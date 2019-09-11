@@ -24,7 +24,8 @@ const Button = styled.button`
     font-weight: bold;
     text-transform: uppercase;
     font-family: verdana;
-	padding: 10px;
+    padding: 10px;
+    margin: 20px 0 0 0;
     color: white;
     border-radius: 50px;
     width: 170px;
@@ -32,7 +33,8 @@ const Button = styled.button`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: rgb(9,4,91);
     background: linear-gradient(132deg, rgba(9,4,91,0.4) 0%, rgba(40,40,168,0.4) 35%, rgba(0,212,255,0.4) 100%);
-`
+    background-image: url('/static/media/milkyway.3d10bab5.jpg')
+    `
 
 const StyledForm = styled.form`
     box-sizing: border-box;
